@@ -1,2 +1,5 @@
+import json
+
 def ingest_log():
-    pass
+    response = {"hello": "world"}
+    return json.dumps(response)
